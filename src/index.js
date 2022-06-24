@@ -16,8 +16,15 @@ app.engine('.hbs', exphbs({
     extname: '.hbs'
 }))
 
+app.set('view engine', '.hbs');
 
-// Static File
+
+//global variables
+app.use(require('./routes/index'));
+app.use(require('./routes/notes'));
+app.use(require('./routes/users'));
+
+//static files
 
 // Server is listening
 app.listen(app.get('port'), () =>{
