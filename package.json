@@ -1,10 +1,9 @@
 {
   "name": "notesapp",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-      "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -16,11 +15,20 @@
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
     "method-override": "^3.0.0",
-    "mongoose": "^6.4.0",
+    "mongoose": "^6.4.1",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosSSC/NOTESAPP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CarlosSSC/NOTESAPP/issues"
+  },
+  "homepage": "https://github.com/CarlosSSC/NOTESAPP#readme",
+  "description": ""
 }
